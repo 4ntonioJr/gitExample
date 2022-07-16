@@ -1,0 +1,16 @@
+git status = muestra el estatus de los archivos
+git status -s = version del status mas corta
+git add <filename> = agrega el archivo o archivos al stage
+git commit -m 'message' = realiza el comit de los archivos que este en el stage con un mensaje
+git push = sube los cambios a github
+git banch = muestra las ramas creadas y en la que se ubica el usuario
+git checkout -b branchname = crea y te cambia a una nueva rama
+git checkout branchname = cambia la rama a la que se indique
+git merge branchname = combina las ramas (se debe estar ubicado en la rama con la que se quire combinar para ejecutarlo)
+git log = muestra el historial (los commit realizados)
+git log --oneline = muestra el historial de forma simple
+
+git rm filename = elimina el archivo y lo agrega al stage
+git mv filedirectory newfiledirectory = mueve o renombra un archivo y lo agrega a stage
+
+git diff = muestra los cambios que se han hecho
